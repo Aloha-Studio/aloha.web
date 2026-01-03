@@ -346,3 +346,25 @@ body {
 .title { animation-delay: 0.2s; }
 .description { animation-delay: 0.3s; }
 .cta-container { animation-delay: 0.4s; }
+
+/* Logo text - NUEVO */
+.logo-text {
+    position: fixed !important;
+    top: 32px !important;
+    left: 32px !important;
+    z-index: 1000 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    letter-spacing: 6px !important;
+    color: #ffffff !important;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    cursor: pointer !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.logo-text:hover {
+    color: #00ff88 !important;
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.4) !important;
+    letter-spacing: 8px !important;
+    transform: translateX(4px) !important;
+}
